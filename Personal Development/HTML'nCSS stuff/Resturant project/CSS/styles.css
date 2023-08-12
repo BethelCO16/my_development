@@ -1,0 +1,140 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family:Bahnschrift;
+}
+
+header
+{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px ;
+    padding-right: 30px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    position: relative;
+}
+
+
+header div h1
+{
+    color: #8795f1;
+    font-family: Matura MT Script Capitals;
+}
+
+nav a
+{
+color: white;
+text-decoration: none;
+padding: 10px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+
+nav a:hover
+{
+    color: #8795f1;
+}
+
+main
+{
+    border:1px solid rgb(255, 202, 156);
+    height: 1000px;
+    background-image: url("../Resturant Assets/Images/bg2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+#main-head
+{
+    font-size: 70px;
+    font-weight: 300;
+    color: white;
+}
+
+#main-sub
+{
+    font-family: Verdana;
+    color: white;
+    text-align: center;
+}
+
+.about-us
+
+{
+    height: 200px;
+    position: relative;
+    top: -250px;
+}
+
+.about-us a 
+{
+    color: rgb(77, 77, 77);
+}
+
+.about-us a:hover
+{
+    color: #8795f1;
+}
+
+
+.about-us section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.about-us section p
+{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.about-us section h1
+{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 0
+}
+
+.about-details
+{
+    display: flex;
+    padding: 20px;
+}
+
+.about-details div
+{
+    width: 50%;
+}
+
+.about-details div:first-child
+{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont
+{
+    text-align: right;
+    text-justify: inter-word;
+}
